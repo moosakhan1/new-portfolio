@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <div class="logo-text">Moosa Khan</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="/images/resume.png">Resume</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic animate-fadeIn">
+                    <img src="images/profile-pic (4).png" alt="proRfile pic">
+                </div>
+                <div class="hero-text animate-fadeIn">
+                    <h5>Hi, I'm a <span class="input">Frontend Developer</span></h5>
+                    <h1>Moosa Khan</h1>
+                    <p>I am Moosa Khan, a passionate Front-End Developer with expertise in creating responsive,
+                        user-friendly interfaces using HTML, CSS, JavaScript, and React.js as well as firebase and
+                        mongoDB. I specialize in developing
+                        seamless web experiences that combine functionality with visually appealing designs. Constantly
+                        learning and evolving, I aim to deliver innovative solutions for modern web development
+                        challenges. </p>
+                    <div class="btn-group">
+                        <a target="_blank" href="MoosaJalilResume1.pdf" class="btn active">Download CV</a>
+                        <a href="#contact" class="btn">Contact Me</a>
+                    </div>
+                    <div class="social">
+                        <a target="_blank" href="https://www.linkedin.com/in/moosa-khan-4879992b7/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a target="_blank" href="https://vercel.com/moosa-khan1s-projects">
+                            <i class="ri-vercel-line"></i>
+                        </a>
+                        <a target="_blank" href="https://github.com/moosakhan1">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div style="background-color: #222;">
+        <img style="position: relative; left: 32%;" src="/images/resume.png" alt="">
+    </div> -->
+
+    <section id="blog" class="blog-section">
+        <div class="wrapper">
+            <h2 class="animate-slideIn">Latest Projects</h2>
+            <div class="blog-container">
+                <article class="blog-post animate-slideIn">
+                    <a target="_blank" href="https://moosakhan1.github.io/music-js-website/"><img
+                            src="/images/music.png" alt="Blog post 1"></a>
+                    <div class="blog-content">
+
+                        <p class="blog-excerpt">"A dynamic music player built with HTML, CSS, and JavaScript, offering
+                            features like play, pause, skip, and an intuitive user interface. Designed to deliver a
+                            seamless and enjoyable music experience for users."</p>
+                    </div>
+                </article>
+                <article class="blog-post animate-slideIn">
+                    <a target="_blank" href="https://text-utile-iota.vercel.app/"> <img src="/images/text.png"
+                            alt="Blog post 2"></a>
+                    <div class="blog-content">
+
+                        <p class="blog-excerpt">"A versatile Text Utils website built with HTML, CSS, and JavaScript,
+                            featuring tools for text formatting, analysis, and transformation. Designed to enhance
+                            productivity with an intuitive interface and real-time functionality."</p>
+                    </div>
+                </article>
+                <article class="blog-post animate-slideIn">
+                    <a target="_blank"
+                        href="https://moosakhan1.github.io/Animated-Websites-with-HTML-CSS-and-JS-Responsive-Front-End/">
+                        <img src="/images/mmmm.png" alt="Blog post 3"></a>
+                    <div class="blog-content">
+
+                        <p class="blog-excerpt">"An engaging animation website crafted with HTML, CSS, JavaScript, and
+                            GSAP, featuring smooth and interactive animations. Designed to captivate users with visually
+                            stunning transitions and dynamic motion effects."</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="wrapper">
+            <h2 class="animate-slideIn">Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your message" rows="5" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <div id="form-status"></div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
